@@ -53,15 +53,17 @@ table {
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Share+Tech+Mono&display=swap');
 
 
 //Variables
 
-@main-font: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-@title-font: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-@PrimaryColor: #faf0e6;
-@SecondaryColor: rgb(214, 211, 209);
+@main-font:'Libre Baskerville', serif;
+@title-font: 'Libre Baskerville', serif;
+@PrimaryColor: white;
+@SecondaryColor: rgba(133, 133, 138, 0.781);
 
 //Mixin
 
@@ -73,6 +75,7 @@ table {
 html, body {
 	font-size: 62.5%;
 	height: 100%;
+	
 }
 body{
 	font-family: @main-font;
@@ -88,13 +91,14 @@ p{
 .Header{
 	background-color: @SecondaryColor;
 	margin: 0% 4%;
-	padding: 4%;
-	font-size: 2.5rem;
+	padding: 2%;
+	font-size: 1.5rem;
 
    nav{
 	   display: flex;
 	   justify-content: center;
-	   justify-content: space-evenly;
+	   justify-content: space-around;
+	  
    
    		@media( max-width: 500px){
 			flex-direction: column;
@@ -107,6 +111,8 @@ p{
 		text-decoration-color: @PrimaryColor;
 		color: darkslategray;
 		font-weight: bold;
+	
+		
 		&:hover{
 			color: @PrimaryColor;
 
@@ -125,8 +131,6 @@ p{
 	padding: 4%;
 
 	img{
-		border: 2px rgb(25, 53, 25) solid;
-        
 
 		@media( max-width: 500px) {
 			display: none;
