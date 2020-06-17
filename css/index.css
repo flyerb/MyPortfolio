@@ -171,7 +171,7 @@ p {
   font-size: 2rem;
 }
 .Header {
-  background-color: rgba(133, 133, 138, 0.781);
+  background-color: #0e1b17;
   margin: 0% 4%;
   padding: 2%;
   font-size: 1.5rem;
@@ -190,11 +190,10 @@ p {
 a {
   text-decoration: overline;
   text-decoration-color: white;
-  color: darkslategray;
-  font-weight: bold;
+  color: whitesmoke;
 }
 a:hover {
-  color: white;
+  color: #294129;
 }
 @media (max-width: 500px) {
   a:hover {
@@ -218,7 +217,14 @@ a:hover {
     width: 40%;
   }
 }
+img {
+  max-width: 100%;
+}
+.LeftSide {
+  width: 90%;
+}
 .RightSide {
+  width: 50%;
   display: flex;
   align-items: center;
   padding-right: 4%;
@@ -248,7 +254,7 @@ a:hover {
   }
 }
 .MiddleSection {
-  background-color: rgba(133, 133, 138, 0.781);
+  background-color: #0e1b17;
   margin: 0% 4%;
   padding: 2%;
 }
@@ -262,7 +268,7 @@ a:hover {
   }
 }
 .BottomSection {
-  background-color: rgba(133, 133, 138, 0.781);
+  background-color: #0e1b17;
   margin: 0% 4%;
   padding: 2%;
   border-bottom: white 2px solid;
@@ -283,7 +289,7 @@ a:hover {
   }
 }
 .Contact {
-  background-color: rgba(133, 133, 138, 0.781);
+  background-color: #0e1b17;
   margin: 0% 4%;
   padding: 2%;
 }

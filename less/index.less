@@ -63,7 +63,7 @@ table {
 @main-font:'Libre Baskerville', serif;
 @title-font: 'Libre Baskerville', serif;
 @PrimaryColor: white;
-@SecondaryColor: rgba(133, 133, 138, 0.781);
+@SecondaryColor: rgb(58, 54, 54);
 
 //Mixin
 
@@ -89,7 +89,7 @@ p{
 }
 
 .Header{
-	background-color: @SecondaryColor;
+	background-color:rgb(14, 27, 23);
 	margin: 0% 4%;
 	padding: 2%;
 	font-size: 1.5rem;
@@ -98,23 +98,24 @@ p{
 	   display: flex;
 	   justify-content: center;
 	   justify-content: space-around;
+	   
 	  
    
    		@media( max-width: 500px){
 			flex-direction: column;
 			align-items: center;
 		   }
-		   }
-		}
+		   
+		
 	a{
 		text-decoration: overline;
 		text-decoration-color: @PrimaryColor;
-		color: darkslategray;
-		font-weight: bold;
+		color: whitesmoke;
+		
 	
 		
 		&:hover{
-			color: @PrimaryColor;
+			color: rgb(41, 65, 41);
 
 		@media( max-width: 500px) {
 			text-decoration: none;
@@ -140,9 +141,17 @@ p{
 			}
 		}
 	}	
+img{
+	max-width: 100%;
 
+}
 
+.LeftSide{
+	width: 90%;
+	
+}
 .RightSide{
+	width: 50%;
 	display: flex;
 	align-items: center;
 	padding-right: 4%;
