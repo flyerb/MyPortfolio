@@ -184,6 +184,9 @@ nav {
   flex-direction: column;
   align-items: center;
 }
+.LeftNav {
+  padding: 1% 0% 0% 10%;
+}
 a {
   text-decoration: overline;
   margin: 1%;
@@ -258,6 +261,7 @@ h2 {
   margin: 0% 4%;
   padding: 2%;
   display: flex;
+  justify-content: center;
 }
 .MiddleSection h2 {
   text-align: center;
@@ -268,24 +272,11 @@ h2 {
     padding: 10%;
   }
 }
-.myIndex {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
-}
 .SkillsSection {
+  margin-top: 5%;
   display: flex;
-  justify-content: flex-end;
-}
-.SkillsSection a {
-  margin: 3%;
-  text-decoration: underline;
-}
-.SkillsSection a:hover {
-  color: #1d2e29;
+  justify-content: center;
+  font-size: 1.5rem;
 }
 .BottomSection {
   background-color: white;
@@ -294,6 +285,7 @@ h2 {
   display: flex;
   justify-content: space-around;
   font-size: 1.5rem;
+  line-height: 1.5em;
 }
 .BottomSection h2 {
   text-align: center;
@@ -308,6 +300,37 @@ h2 {
   .BottomSection h2 h3 {
     padding: 10%;
   }
+}
+.social-icons {
+  text-align: center;
+}
+.social-icons li {
+  display: inline-block;
+  list-style-type: none;
+}
+.social-icons li a {
+  border-bottom: none;
+}
+.social-icons li img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+.TopAbout {
+  display: flex;
+  border-bottom: gray 2px solid;
+}
+.MyImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin: 50%;
+  display: block;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.AboutSection {
+  padding: 10% 30% 10% 30%;
+  line-height: 5em;
 }
 .Contact {
   background-color: #faf9f9;
@@ -342,31 +365,22 @@ h2 {
   max-height: 100%;
   display: block;
 }
-.MyImage {
-  max-width: 80%;
-  max-height: 90%;
-  padding-left: 10%;
-  padding-top: 2%;
-  margin-right: 2%;
-  display: block;
+.Projects {
+  display: flex;
+  flex-wrap: wrap;
 }
-.LSide {
-  margin-top: 25%;
-  width: 35%;
+.Projects img {
+  width: 30%;
 }
-.ProjectTopSection {
+.Projects h3 {
+  padding-left: 15%;
+}
+.Projects p {
+  margin: 3%;
+}
+.Projects div {
   display: flex;
   justify-content: center;
-  margin: 5%;
-}
-.ProjectMiddle {
-  background-color: #faf9f9;
-  border-top: gray 2px solid;
-  border-bottom: gray 2px solid;
-  margin: 0% 4%;
-  padding: 2%;
-  display: flex;
-}
-.ProjectMiddle div {
-  margin: 5%;
+  margin: 3%;
+  border: rgba(0, 0, 0, 0.19) 1px solid;
 }
